@@ -21,9 +21,9 @@ Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
-
-
+You should avoid including it just incase it interferes with code or you write something
+that somewhat resembles jQuery and for some reason it is used. Also, you don't need
+the extra scripts so it'll make your site more efficient not having that library.
 
 
 ++++++++++++
@@ -39,3 +39,8 @@ Every jQuery statment starts with a $
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+
+A CDN is "is an interconnected system of cache servers that use geographical proximity as a criteria for delivering Web content."
+Some advantages of them include that content will get to the client faster, they precache files so your site
+won't need to redownload all the content when revisiting a page, they have built-in version control,
+and analytics which helps the owner be able to monitor what is and isn't popular on their site.
